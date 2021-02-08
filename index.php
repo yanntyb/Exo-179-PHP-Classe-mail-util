@@ -10,11 +10,11 @@
 </head>
 <body>
     <div id="cont">
-        <form action="index.php" method="post">
+        <form action="./index.php" method="post">
             <div id="mail">
                 <div>
                     <label for="to">To :</label>
-                    <input type="text" name="to" id="to" required>
+                    <input type="email" name="to" id="to" required>
                 </div>
                 <br>
                 <div>
